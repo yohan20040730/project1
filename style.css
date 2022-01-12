@@ -1,0 +1,96 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Free-Download-Album-Cover-Background-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #8e88e2ef;
+}
+
+.navli{
+    float: left;
+}
+
+.navli a{
+    display: flex;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: rgb(94, 35, 128);
+    color : white
+}
+li a:hover:not(.active) {
+    background-color: rgb(109, 97, 216);
+    color: white;
+}
+
+.pp {
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 200%;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgb(255, 0, 0),#3f41bd);
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    align-content: center;
+   
+}
+
+.sampul {
+width: 300px;
+height: 100px;
+position: relative;
+}
+
+.cl{
+    list-style: none;
+    color: rgb(219, 206, 189);
+    
+}
+
+
+/* contact page */
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    margin-top: 250px;
+    
+    
+}
+
+.logo:hover {
+    box-shadow: 0px 10px 5px 2px;
+    
+}
